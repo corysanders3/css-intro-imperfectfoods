@@ -43,13 +43,19 @@ button {
     display: inline-block;
     font-size: 24px;
     font-weight: normal;
-    text-decoration-line: none;
-    text-decoration-thickness: initial;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
     border: none;
 }
 
 img {
     max-width: 7.4375rem;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: baseline;
+}
+
+div > div {
+    display: inline-block;
+    padding: 12px
 }
